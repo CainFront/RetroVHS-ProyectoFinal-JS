@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./img/icono.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>RetroVHS</title>
+  </head>
+  <body class="bodyInicio">
+    <header class="header">
+      <a href="./index.html"
+        ><img class="logo" src="./img/logoDos.png" alt="logo"
+      /></a>
+      <nav class="navBar">
+        <ul>
+          <li><a href="./index.html">Inicio</a></li>
+          <li><a href="./secciones/peliculas.html">Peliculas</a></li>
+          <li><a href="./secciones/cine.html">Cine</a></li>
+          <li><a href="./secciones/quiz.html">Quiz</a></li>
+          <li><a href="./secciones/contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="mainInicio">
+      <div class="mainInicioHero">
+        <section class="mainInicioHeroSub">
+          <label for="email">Suscribete para no perderte nada</label>
+          <input type="email" id="emailSub" placeholder="ejemplo@gmail.com" />
+          <button id="btnSub">Enviar</button>
+          <!-- BOTON DE SUBS-->
+        </section>
+      </div>
+      <div class="separador">
+        <img class="separadorImg" src="./img/separador.png" alt="separador" />
+      </div>
+
+      <div class="mainInicioObjetivo">
+        <h2>Nuesto Objetivo</h2>
+        <p>
+          Nuestro principal objetivo es lograr revivir nostalgicamente un
+          <strong>Videoclub</strong>, aquel lugar donde eligias que pelicula
+          rentar solamente por la portada, con la escasa información que
+          podíamos obtener de la caja o en algunas ocasiones los consejos del
+          dueño del <strong>Videoclub</strong>.
+        </p>
+        <p>
+          Pero debido a los avances tecnologicos un
+          <strong>Videoclub</strong> con una locacion fisica en la actualidad
+          seria un negocio poco rentable, es por ello que decidimos
+          reinventarnos y poder ofreser peliculas en VHS via
+          <strong>Streaming</strong>.
+        </p>
+        <div class="objetivoImg">
+          <div class="objetivoImgUno"></div>
+          <div class="objetivoImgDos"></div>
+        </div>
+      </div>
+      <div class="separador">
+        <img class="separadorImg" src="./img/separador.png" alt="separador" />
+      </div>
+      <div class="mainInicioFuncionamiento">
+        <h2>Funcionamiento de la Web</h2>
+        <p>
+          "Retro VHS" funciona mediante el alquiler de peliculas disponibles en
+          el <a href="./secciones/peliculas.html"><strong>Catalogo</strong></a
+          >, las mismas se trasmitiran via Streaming en la fecha y hora
+          estipulada por el usuario al momento de rentarla.
+        </p>
+
+        <div class="diagrama">
+          <img src="./img/funcionamientoUno.jpg" alt="" />
+        </div>
+      </div>
+      <div class="separador">
+        <img class="separadorImg" src="./img/separador.png" alt="separador" />
+      </div>
+      <div class="mainInicioFAQ">
+        <h2>Preguntas Frecuentes</h2>
+        <div class="FAQUno">
+          <button class="FAQBtn" id="FaqUno">
+            ¿Es lo mismo que "Netflix"?
+          </button>
+          <p id="FAQTextoUno">
+            No, en nuestra web podras encontrar paliculas clasicas, antiguas y
+            descatalogadas que no podras encontrar facilmente. La pelicula se
+            proyectara via Streaming sin pausa.
+          </p>
+        </div>
+        <div class="FAQDos">
+          <button class="FAQBtn" id="FaqDos">
+            ¿Puedo comprartir el link del Streaming?
+          </button>
+          <p id="FAQTextoDos">
+            No, la transicion en directo captura las direcciones IP que se
+            conectan y solo permiten el acceso de un solo dispositivo.
+          </p>
+        </div>
+        <div class="FAQTres">
+          <button class="FAQBtn" id="FaqTres">
+            ¿Puedo alquilar Varias Peliculas a la vez?
+          </button>
+          <p id="FAQTextoTres">
+            No, lamentablemente por el momento el servicio de Streaming solo nos
+            permite trasmitir durante un maximo de 2 horas, de igual manera esto
+            se puede solucionar mediante la utilizacion de un unico link por
+            pelicula.
+          </p>
+        </div>
+        <div class="FAQCuatro">
+          <button class="FAQBtn" id="FaqCuatro">
+            ¿Puedo pedir el reintegro si no pude asistir al Streaming?
+          </button>
+          <p id="FAQTextoCuatro">
+            Si, esto solo es posible si mediante el email de contacto
+            "contacto@RetroVHS.com" 24hs antes del inicio de la pelicula. En
+            caso contrario no sera posible realizar un reintegro del costo
+            abonado.
+          </p>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="redesSociales">
+        <h3><img src="./img/facebook.png" alt="facebook" />Facebook</h3>
+        <h3><img src="./img/twitter.png" alt="facebook" />Twitter</h3>
+        <h3><img src="./img/instagram.png" alt="facebook" />Instagram</h3>
+      </div>
+      <div class="autor">
+        <a href="https://www.linkedin.com/in/caincaami%C3%B1a/"
+          ><span>AUTOR:</span>CAIN CAAMIÑA</a
+        >
+      </div>
+    </footer>
+    <script src="./script/jquery-3.6.0.min.js"></script>
+    <script src="./script/inicio.js"></script>
+  </body>
+</html>

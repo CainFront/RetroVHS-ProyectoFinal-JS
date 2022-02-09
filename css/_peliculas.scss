@@ -1,0 +1,10 @@
+.mainPeliculas {
+  grid-area: "main";
+  background-color: rgb(00, 00, 34);
+}
+
+.cajaFilms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

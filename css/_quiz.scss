@@ -1,0 +1,154 @@
+// CSS QUIZ
+.mainQuiz {
+  grid-area: "main";
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  &Logo {
+    width: 20rem;
+  }
+  // Pregunta N°1
+  .quizUno {
+    width: 70%;
+    .preguntaUno {
+      height: 15rem;
+      background-image: url(../img/quizUno.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      margin-top: 3rem;
+    }
+    .respuestasUno {
+      margin-top: 1rem;
+      border-radius: 1rem;
+      background-color: grey;
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+  // Pregunta N°2
+  .quizDos {
+    width: 70%;
+    .preguntaDos {
+      height: 15rem;
+      background-image: url(../img/quizDos.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      margin-top: 3rem;
+    }
+    .respuestasDos {
+      margin-top: 1rem;
+      border-radius: 1rem;
+      background-color: grey;
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+  // Pregunta N°3
+  .quizTres {
+    width: 70%;
+    .preguntaTres {
+      height: 15rem;
+      background-image: url(../img/quizTres.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      margin-top: 3rem;
+    }
+    .respuestasTres {
+      margin-top: 1rem;
+      border-radius: 1rem;
+      background-color: grey;
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+  // Pregunta N°4
+  .quizCuatro {
+    width: 70%;
+    .preguntaCuatro {
+      height: 15rem;
+      background-image: url(../img/quizCuatro.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      margin-top: 3rem;
+    }
+    .respuestasCuatro {
+      margin-top: 1rem;
+      border-radius: 1rem;
+      background-color: grey;
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+  // Pregunta N°5
+  .quizCinco {
+    width: 70%;
+    .preguntaCinco {
+      height: 15rem;
+      background-image: url(../img/quizCinco.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      margin-top: 3rem;
+    }
+    .respuestasCinco {
+      margin-top: 1rem;
+      border-radius: 1rem;
+      background-color: grey;
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+}
+
+// Configuracio Botones Quiz
+
+.quizBtn {
+  padding: 10px 20px;
+  border-radius: 1rem;
+  border: 5px outset #646199;
+  font-family: "Sedgwick Ave", cursive;
+  font-size: 1.3rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.resultado {
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &Btn {
+    padding: 20px 30px;
+    border-radius: 1rem;
+    background-color: #646199;
+    border: 5px outset #e01476;
+    color: white;
+    text-shadow: black 2px 2px;
+    font-family: "Sedgwick Ave", cursive;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    font-variant-caps: small-caps;
+    &:hover {
+      background-color: #e01476;
+      border: 5px outset #646199;
+      color: black;
+      text-shadow: white 1px 1px;
+    }
+  }
+  &Texto {
+    padding: 1rem;
+    text-align: center;
+    font-family: "Sedgwick Ave", cursive;
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+}

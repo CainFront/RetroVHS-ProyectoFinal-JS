@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../img/icono.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <title>RetroVHS</title>
+  </head>
+
+  <body class="bodyInicio">
+    <!---------------------------------------------
+    HEADER CONTACTO
+---------------------------------------------->
+    <header class="header">
+      <a href="../index.html"
+        ><img class="logo" src="../img/logoDos.png" alt="logo"
+      /></a>
+      <nav class="navBar">
+        <ul>
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="peliculas.html">Peliculas</a></li>
+          <li><a href="cine.html">Cine</a></li>
+          <li><a href="quiz.html">Quiz</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!---------------------------------------------
+    MAIN CONTACTO
+     ---------------------------------------------->
+    <main class="mainContacto">
+      <div class="cajaFormulario">
+        <section class="formulario">
+          <h2 class="formularioTitulo">Contactanos</h2>
+          <!-- nombre input -->
+          <label class="form-label" for="nombre">Nombre:</label>
+          <input
+            class="form-control"
+            id="contactoNombre"
+            type="text"
+            placeholder="Nombre y Apellido"
+          />
+          <!-- Email input -->
+
+          <label class="form-label" for="email">Correo Electronico:</label>
+          <input
+            class="form-control"
+            id="contactoEmail"
+            type="email"
+            placeholder="ejemplo@gmail.com"
+          />
+
+          <!-- Mensaje input -->
+
+          <label class="form-label" for="mensaje">¿Cual es tu mensaje?</label>
+          <textarea
+            class="form-control"
+            id="contactoTexto"
+            type="text"
+            placeholder="Mensaje aqui"
+            style="height: 10rem"
+          ></textarea>
+
+          <button type="submit" class="contactoBoton">ENVIAR</button>
+        </section>
+
+        <div class="redes">
+          <h2 class="redesTitulo">
+            También Nos Podes Contactar por Nuestras Redes Sociales
+          </h2>
+          <section>
+            <!-- Facebook -->
+            <a href="#"
+              ><img src="../img/facebook.png" alt="logo de facebook"
+            /></a>
+            <!-- Twitter -->
+            <a href="#"
+              ><img src="../img/twitter.png" alt="logo de twitter"
+            /></a>
+            <!-- Instagram -->
+            <a href="#"
+              ><img src="../img/instagram.png" alt="logo de instagram"
+            /></a>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <!---------------------------------------------
+    FOOTER CONTACTO
+     ---------------------------------------------->
+    <footer class="footer">
+      <div class="redesSociales">
+        <h3><img src="../img/facebook.png" alt="facebook" />Facebook</h3>
+        <h3><img src="../img/twitter.png" alt="facebook" />Twitter</h3>
+        <h3><img src="../img/instagram.png" alt="facebook" />Instagram</h3>
+      </div>
+      <div class="autor">
+        <a href="https://www.linkedin.com/in/caincaami%C3%B1a/"
+          ><span>AUTOR:</span>CAIN CAAMIÑA</a
+        >
+      </div>
+    </footer>
+    <script src="../script/jquery-3.6.0.min.js"></script>
+    <script src="../script/contacto.js"></script>
+  </body>
+</html>

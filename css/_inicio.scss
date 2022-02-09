@@ -1,0 +1,230 @@
+/*========================================
+              HEADER
+=========================================*/
+.header {
+  grid-area: "header";
+  height: 15vh;
+  background-image: url(../img/texturaVHS2.jpg);
+  display: flex;
+  justify-content: space-around;
+  .logo {
+    height: 100%;
+  }
+  .navBar {
+    width: 60vw;
+    background-image: url(../img/caraturaDos.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0.5rem !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ul {
+      display: flex;
+      width: 80%;
+      justify-content: space-around;
+      font-family: "Sedgwick Ave", cursive;
+      font-size: 1.5rem;
+      font-weight: bold;
+      a {
+        color: black;
+        &:hover {
+          color: #646199;
+          text-shadow: rgb(32, 32, 32) 1px 2px;
+        }
+      }
+    }
+  }
+}
+/*========================================
+                MAIN INICIO
+  =========================================*/
+.mainInicio {
+  grid-area: "main";
+  background-color: #646199;
+  color: white;
+  &Hero {
+    margin: auto;
+    width: 90vw;
+    height: 50vh;
+    margin-top: 3rem;
+    background-color: black;
+    background-image: url(../img/hero.png);
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    &Sub {
+      width: 40vw;
+      height: 70%;
+      display: flex;
+      margin-left: 3rem;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: "Sedgwick Ave", cursive;
+      h3 {
+        margin-bottom: 1rem;
+      }
+      input {
+        width: 50%;
+        padding: 10px;
+      }
+      button {
+        margin-top: 1rem;
+        padding: 10px;
+        width: 20%;
+        border-radius: 1rem;
+        cursor: pointer;
+        background: #646199;
+        color: white;
+        font-family: "Sedgwick Ave", cursive;
+        font-size: 1rem;
+        border: 1px solid white;
+        &:hover {
+          color: #646199;
+          background-color: white;
+          border: 1px solid #646199;
+        }
+      }
+    }
+  }
+  h2 {
+    font-variant-caps: small-caps;
+    font-size: 3rem;
+    text-align: center;
+    color: #e01476;
+    text-shadow: black 2px 2px;
+    margin-bottom: 4rem;
+  }
+  p {
+    margin-top: 1rem;
+    font-family: "Sedgwick Ave", cursive;
+    text-align: center;
+    font-size: 1.3rem;
+    font-variant-caps: small-caps;
+    margin-bottom: 3rem;
+  }
+  &Objetivo {
+    width: 90vw;
+    margin: auto;
+    .objetivoImg {
+      width: 90vw;
+      height: 40vh;
+      margin: auto;
+      display: flex;
+      justify-content: space-around;
+      &Uno {
+        width: 40vw;
+        background-image: url(../img/objetivoUno.jpg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      &Dos {
+        width: 40vw;
+        background-image: url(../img/objetivoDos.jpg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+    }
+  }
+  &Funcionamiento {
+    width: 90vw;
+    margin: auto;
+    a {
+      color: white;
+      &:hover {
+        color: white;
+        text-shadow: black 1px 2px;
+      }
+    }
+    .diagrama {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  &FAQ {
+    width: 90vw;
+    margin: auto;
+    margin-bottom: 5rem;
+    .FAQBtn {
+      width: 90vw;
+      padding: 10px;
+      border-radius: 1rem;
+      font-family: "Roboto", sans-serif;
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: gray;
+      text-shadow: black 1px 1px;
+      cursor: pointer;
+      &:hover {
+        background-color: rgb(83, 199, 199);
+        color: white;
+      }
+    }
+  }
+}
+
+.separador {
+  margin: 3rem 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+// Parrafos de Acordeon
+
+#FAQTextoUno {
+  display: none;
+}
+#FAQTextoDos {
+  display: none;
+}
+#FAQTextoTres {
+  display: none;
+}
+#FAQTextoCuatro {
+  display: none;
+}
+
+/*========================================
+                FOOTER
+  =========================================*/
+
+.footer {
+  grid-area: "footer";
+  background-color: black;
+  .redesSociales {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    h3 {
+      color: white;
+      font-family: "Sedgwick Ave", cursive;
+      font-size: 1.5rem;
+    }
+  }
+  .autor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    font-family: "Roboto", sans-serif;
+    span {
+      color: #646199;
+      font-weight: bold;
+      text-shadow: rgb(161, 161, 161) 1px 1px;
+      padding: 10px;
+    }
+    a {
+      color: white;
+      font-weight: bold;
+      text-shadow: #646199 2px 2px;
+    }
+  }
+}

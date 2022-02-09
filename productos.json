@@ -1,0 +1,242 @@
+[
+  {
+    "precio": 100,
+    "id": 1,
+    "title": "Gothic",
+    "imagen": "https://img.aullidos.com/imagenes/caratulas-vhs-terror/imagen-239.jpg"
+  },
+  {
+    "precio": 100,
+    "id": 2,
+    "title": "La leyenda del Yeti",
+    "imagen": "https://img.aullidos.com/imagenes/caratulas-vhs-terror/imagen-238.jpg"
+  },
+  {
+    "precio": 100,
+    "id": 3,
+    "title": "El Carnaval de las Tinieblas",
+    "imagen": "https://img.aullidos.com/imagenes/caratulas-vhs-terror/imagen-237.jpg"
+  },
+  {
+    "precio": 100,
+    "id": 4,
+    "title": "Total Oscuridad",
+    "imagen": "https://img.aullidos.com/imagenes/caratulas-vhs-terror/imagen-236.jpg"
+  },
+  {
+    "precio": 100,
+    "id": 5,
+    "title": "Emma, puertas oscuras",
+    "imagen": "https://img.aullidos.com/imagenes/caratulas-vhs-terror/imagen-235.jpg"
+  },
+  {
+    "precio": 100,
+    "id": 6,
+    "title": "Dias de Horror y Muerte",
+    "imagen": "https://img.aullidos.com/imagenes/caratulas-vhs-terror/imagen-234.jpg"
+  },
+  {
+    "precio": 100,
+    "id": 7,
+    "title": "La semilla del Espacio",
+    "imagen": "https://img.aullidos.com/imagenes/caratulas-vhs-terror/imagen-233.jpg"
+  },
+  {
+    "precio": 100,
+    "id": 8,
+    "title": "El silencio de los Corderos",
+    "imagen": "https://img.aullidos.com/imagenes/caratulas-vhs-terror/imagen-232.jpg"
+  },
+  {
+    "precio": 100,
+    "id": 9,
+    "title": "Stephen King, Apocalipsis",
+    "imagen": "https://img.aullidos.com/imagenes/caratulas-vhs-terror/imagen-231.jpg"
+  },
+  {
+    "precio": 100,
+    "id": 10,
+    "title": "Viernes 13, 6° Parte",
+    "imagen": "https://img.aullidos.com/imagenes/caratulas-vhs-terror/imagen-230.jpg"
+  },
+  {
+    "precio": 100,
+    "id": 11,
+    "title": "Fin de semana Sangriento",
+    "imagen": "https://img.aullidos.com/imagenes/caratulas-vhs-terror/imagen-229.jpg"
+  },
+  {
+    "precio": 100,
+    "id": 12,
+    "title": "Toxic Waste",
+    "imagen": "https://img.aullidos.com/imagenes/caratulas-vhs-terror/imagen-228.jpg"
+  },
+  {
+    "precio": 100,
+    "id": 13,
+    "title": "Claustrofibia",
+    "imagen": "https://img.aullidos.com/imagenes/caratulas-vhs-terror/imagen-227.jpg"
+  },
+  {
+    "precio": 100,
+    "id": 14,
+    "title": "Del espacio Profundo",
+    "imagen": "https://img.aullidos.com/imagenes/caratulas-vhs-terror/imagen-226.jpg"
+  },
+  {
+    "precio": 100,
+    "id": 15,
+    "title": "Aquarius",
+    "imagen": "https://img.aullidos.com/imagenes/caratulas-vhs-terror/imagen-225.jpg"
+  },
+  {
+    "precio": 100,
+    "id": 16,
+    "title": "La Mansión de los Condenados",
+    "imagen": "https://img.aullidos.com/imagenes/caratulas-vhs-terror/imagen-224.jpg"
+  },
+  {
+    "precio": 100,
+    "id": 17,
+    "title": "Cuchillo para Damas",
+    "imagen": "https://img.aullidos.com/imagenes/caratulas-vhs-terror/imagen-223.jpg"
+  },
+  {
+    "precio": 100,
+    "id": 18,
+    "title": "La amante del Demonio",
+    "imagen": "https://img.aullidos.com/imagenes/caratulas-vhs-terror/imagen-222.jpg"
+  },
+  {
+    "precio": 100,
+    "id": 19,
+    "title": "Aullidos II",
+    "imagen": "https://img.aullidos.com/imagenes/caratulas-vhs-terror/imagen-221.jpg"
+  },
+  {
+    "precio": 100,
+    "id": 20,
+    "title": "La Muerte en AutoStop",
+    "imagen": "https://img.aullidos.com/imagenes/caratulas-vhs-terror/imagen-220.jpg"
+  },
+  {
+    "precio": 100,
+    "id": 21,
+    "title": "Adios Hermano Cruel",
+    "imagen": "https://img.aullidos.com/imagenes/caratulas-vhs-terror/imagen-219.jpg"
+  },
+  {
+    "precio": 100,
+    "id": 22,
+    "title": "Aquelarre Sangriento",
+    "imagen": "https://img.aullidos.com/imagenes/caratulas-vhs-terror/imagen-218.jpg"
+  },
+  {
+    "precio": 100,
+    "id": 23,
+    "title": "Una historia china de Fantasmas",
+    "imagen": "https://img.aullidos.com/imagenes/caratulas-vhs-terror/imagen-217.jpg"
+  },
+  {
+    "precio": 100,
+    "id": 24,
+    "title": "Del espacio Profundo",
+    "imagen": "https://img.aullidos.com/imagenes/caratulas-vhs-terror/imagen-216.jpg"
+  },
+  {
+    "precio": 100,
+    "id": 25,
+    "title": "Colmillos asesinos",
+    "imagen": "https://img.aullidos.com/imagenes/caratulas-vhs-terror/imagen-215.jpg"
+  },
+  {
+    "precio": 100,
+    "id": 26,
+    "title": "Terror en el Menu",
+    "imagen": "https://img.aullidos.com/imagenes/caratulas-vhs-terror/imagen-214.jpg"
+  },
+  {
+    "precio": 100,
+    "id": 27,
+    "title": "The Lamp",
+    "imagen": "https://img.aullidos.com/imagenes/caratulas-vhs-terror/imagen-213.jpg"
+  },
+  {
+    "precio": 100,
+    "id": 28,
+    "title": "The Wind",
+    "imagen": "https://img.aullidos.com/imagenes/caratulas-vhs-terror/imagen-212.jpg"
+  },
+  {
+    "precio": 100,
+    "id": 29,
+    "title": "Bonnie´s Kinds",
+    "imagen": "https://img.aullidos.com/imagenes/caratulas-vhs-terror/imagen-211.jpg"
+  },
+  {
+    "precio": 100,
+    "id": 30,
+    "title": "Museo de Cera",
+    "imagen": "https://img.aullidos.com/imagenes/caratulas-vhs-terror/imagen-210.jpg"
+  },
+  {
+    "precio": 100,
+    "id": 31,
+    "title": "Jueves Sangriento",
+    "imagen": "https://img.aullidos.com/imagenes/caratulas-vhs-terror/imagen-209.jpg"
+  },
+  {
+    "precio": 100,
+    "id": 32,
+    "title": "Mas alla de la Reencarnacion",
+    "imagen": "https://img.aullidos.com/imagenes/caratulas-vhs-terror/imagen-208.jpg"
+  },
+  {
+    "precio": 100,
+    "id": 33,
+    "title": "Society",
+    "imagen": "https://img.aullidos.com/imagenes/caratulas-vhs-terror/imagen-207.jpg"
+  },
+  {
+    "precio": 100,
+    "id": 34,
+    "title": "Scanners II, el nuevo orden",
+    "imagen": "https://img.aullidos.com/imagenes/caratulas-vhs-terror/imagen-206.jpg"
+  },
+  {
+    "precio": 100,
+    "id": 35,
+    "title": "El Dentista",
+    "imagen": "https://img.aullidos.com/imagenes/caratulas-vhs-terror/imagen-205.jpg"
+  },
+  {
+    "precio": 100,
+    "id": 36,
+    "title": "The Stuff",
+    "imagen": "https://img.aullidos.com/imagenes/caratulas-vhs-terror/imagen-204.jpg"
+  },
+  {
+    "precio": 100,
+    "id": 37,
+    "title": "Tiburon la Venganza",
+    "imagen": "https://img.aullidos.com/imagenes/caratulas-vhs-terror/imagen-203.jpg"
+  },
+  {
+    "precio": 100,
+    "id": 38,
+    "title": "Luna Maldita",
+    "imagen": "https://img.aullidos.com/imagenes/caratulas-vhs-terror/imagen-202.jpg"
+  },
+  {
+    "precio": 100,
+    "id": 39,
+    "title": "Shadowbuilder, la sombra del mal",
+    "imagen": "https://img.aullidos.com/imagenes/caratulas-vhs-terror/imagen-201.jpg"
+  },
+  {
+    "precio": 100,
+    "id": 40,
+    "title": "The alpha Incident.",
+    "imagen": "https://img.aullidos.com/imagenes/caratulas-vhs-terror/imagen-200.jpg"
+  }
+]

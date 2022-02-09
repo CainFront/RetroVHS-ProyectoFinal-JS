@@ -1,0 +1,66 @@
+// CONFIGURACION DE CONTACTO
+.mainContacto {
+  grid-area: "main";
+  background-color: rgb(00, 00, 34);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .cajaFormulario {
+    border: 10px outset #e01476;
+    border-radius: 2rem;
+    // background-color: rgb(83, 199, 212);
+    background-color: #646199;
+    margin: 7rem 0;
+    width: 50vw;
+    .formulario {
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      font-family: "Sedgwick Ave", cursive;
+      text-shadow: black 1px 1px;
+      h2 {
+        text-align: center;
+        text-shadow: black 2px 2px;
+        font-size: 2rem;
+      }
+      label {
+        margin-top: 1rem;
+      }
+      input {
+        padding: 10px;
+      }
+      textarea {
+        min-height: 100px;
+        max-height: 200px;
+        min-width: 100%;
+        max-width: 100%;
+        color: black;
+      }
+      button {
+        margin: auto;
+        margin-top: 2rem;
+        padding: 20px;
+        border-radius: 1rem;
+        background-color: #e01476;
+        color: white;
+        font-family: "Sedgwick Ave", cursive;
+        font-weight: bold;
+        font-size: 1.1rem;
+        cursor: pointer;
+      }
+    }
+    .redes {
+      padding: 2rem;
+      text-align: center;
+      font-family: "Sedgwick Ave", cursive;
+      text-shadow: black 2px 2px;
+      h2 {
+        margin-bottom: 2rem;
+      }
+      a {
+        padding: 10px;
+      }
+    }
+  }
+}
